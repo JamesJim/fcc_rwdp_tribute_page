@@ -27,14 +27,16 @@ nav a {
   text-decoration: none;
 }
 #img-div {
-  align-self: center;
+  width: auto;
 }
 #image-caption p {
   text-align: center;
 }
 img {
-  width: 75%;
-  height: 75%;
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
 }
 h1{
   font-size: 1.5em;
@@ -68,8 +70,5 @@ footer p{
   h1 {
     font-size: 2.5em;
   }
-  img {
-    width: 50%;
-    height: 50%;
-  }
+
 }
